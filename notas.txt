@@ -1,0 +1,68 @@
+CREATE USER 'homestead'@'localhost' IDENTIFIED BY 'secret';
+GRANT ALL PRIVILEGES ON * . * TO 'homestead'@'localhost';
+FLUSH PRIVILEGES;
+
+php artisan make:auth
+
+
+php artisan migrate
+
+
+
+php artisan make:migration create_imoveis_table
+
+php artisan migrate
+
+php artisan make:model ImoveisModel -m
+
+php artisan make:controller ImoveisController
+
+
+php artisan make:model userModel
+php artisan make:controller UserController
+
+
+npm run watch
+
+@foreach($teste as $key => $value)
+                            {{ $value }}
+                        @endforeach
+
+
+
+                        if (Auth::check()) {
+    // The user is logged in...
+}
+
+
+protected $fillable = [
+        'name', 'email', 'password', 'remember_token'
+    ];
+
+    protected $guarded = ['id', 'created_at', 'update_at'];
+
+    /**
+     * The attributes that should be hidden for arrays.
+     *
+     * @var array
+     */
+    protected $hidden = [
+        
+    ];
+
+
+    php artisan make:migration create_imobiliaria_table
+
+    php artisan make:model imobiliariaModel
+
+
+
+
+    php artisan make:seeder UsersTableSeeder
+
+    php artisan make:seeder ImoveisTableSeeder
+
+    php artisan make:seeder imobiliariaTableSeeder
+
+
+    php artisan db:seed

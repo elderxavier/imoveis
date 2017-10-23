@@ -1,0 +1,22 @@
+.clear {clear:both}
+.col-90 {display: inline !important; width: 89.5% !important}
+.col-80 {display: inline !important; width: 80% !important}
+.col-70 {display: inline !important; width: 70% !important}
+.col-67 {display: inline !important; width: 67% !important}
+.col-60 {display: inline !important; width: 60% !important}
+.col-50 {display: inline !important; width: 50% !important}
+.col-40 {display: inline !important; width: 40% !important}
+.col-33 {display: inline !important; width: 33% !important}
+.col-20 {display: inline !important; width: 20% !important}
+.col-15 {display: inline !important; width: 15% !important}
+.col-10 {display: inline !important; width: 10% !important}
+.fa {border: none}
+.table-wraper {width: 100%;overflow: auto}
+.table-wraper td {white-space: nowrap}
+.add-imovel {width: 70%}
+
+.filter {margin: 20px 0}
+.filter-imobiliarias {max-width: 248px}
+@media(max-width:767px) {
+	.add-imovel {width: 50%; text-align: center;}	
+}
