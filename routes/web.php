@@ -26,7 +26,7 @@ Route::post('/update', 'ImoveisController@update')->name('update');
 Route::post('/delete', 'ImoveisController@delete')->name('delete');
 Route::get('/search/{q?}/{v?}', 'ImoveisController@search')->name('search');
 
-Route::get('/api/oauth', 'UserController@oauth')->name('oauth');
+Route::post('/api/oauth', 'UserController@oauth')->name('oauth');
 
 
 
